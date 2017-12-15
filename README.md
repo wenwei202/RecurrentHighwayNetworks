@@ -178,6 +178,11 @@ $ python theano_rhn_train.py with ptb_sota
 $ python theano_rhn_train.py with enwik8_sota
 ```
 
+### Test in TensorFlow
+```
+python rhn_train.py with ptb_sota 'max_max_epoch=0' 'seed=0123456789'
+```
+
 ### Brainstorm
 
 An RHN layer implementation is also provided in [Brainstorm](https://github.com/IDSIA/brainstorm). 
